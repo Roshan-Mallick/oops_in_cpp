@@ -2,12 +2,14 @@
 
 ## What is a Class?
 
-A **class** is a user-defined data type that groups data and functions together.
+A **class** is a user-defined data type used to group related data and functions together.
 
 A class can contain:
 
-* Data members
-* Member functions
+- Data members
+- Member functions
+
+---
 
 ## Basic Class Syntax
 
@@ -45,8 +47,8 @@ student s2;
 
 Here:
 
-* `student` is the class.
-* `s1` and `s2` are objects of the `student` class.
+- `student` is the class.
+- `s1` and `s2` are objects of the `student` class.
 
 One class can be used to create multiple objects.
 
@@ -56,7 +58,7 @@ One class can be used to create multiple objects.
 
 Variables declared inside a class are called **data members**.
 
-Example:
+### Example
 
 ```cpp
 int roll;
@@ -64,22 +66,6 @@ string name;
 ```
 
 In this example, `roll` and `name` are data members of the `student` class.
-
----
-
-## Member Functions
-
-Functions declared inside a class are called **member functions**.
-
-Example:
-
-```cpp
-void info() {
-    cout << "Student information";
-}
-```
-
-The `info()` function is a member function of the class.
 
 ---
 
@@ -91,26 +77,26 @@ The `info()` function is a member function of the class.
 public:
 ```
 
-Members declared under `public` can be accessed outside the class using an object.
+Data members declared under `public` can be accessed outside the class using an object.
 
 ---
 
-## Accessing Class Members
+## Accessing Data Members
 
-The **dot operator `.`** is used to access public data members and member functions through an object.
+The **dot operator `.`** is used to access public data members through an object.
 
-### Access a Data Member
+### Example
 
 ```cpp
 s1.roll = 1177;
 s1.name = "Roshan";
 ```
 
-### Call a Member Function
+Here:
 
-```cpp
-s1.info();
-```
+- `s1` is the object.
+- `.` is the dot operator.
+- `roll` and `name` are public data members.
 
 ---
 
@@ -122,12 +108,9 @@ student (Class)
 ├── roll     → Data member
 ├── name     → Data member
 │
-└── info()   → Member function
-       │
-       ▼
-Objects
-├── s1
-└── s2
+└── Objects
+    ├── s1
+    └── s2
 ```
 
 ---
@@ -140,15 +123,15 @@ Objects
 03_access_members.cpp
 ```
 
+---
+
 ## Important Points
 
-* A class is a user-defined data type.
-* An object is an instance of a class.
-* A class can contain data members and member functions.
-* One class can create multiple objects.
-* Variables inside a class are called data members.
-* Functions inside a class are called member functions.
-* The `public` access specifier allows members to be accessed outside the class.
-* The dot operator `.` is used to access members through an object.
-* A class definition ends with a semicolon `;`.
-
+- A class is a user-defined data type.
+- An object is an instance of a class.
+- A class can contain data members and member functions.
+- One class can create multiple objects.
+- Variables declared inside a class are called data members.
+- `public` allows members to be accessed outside the class.
+- The dot operator `.` is used to access public data members through an object.
+- A class definition ends with a semicolon `;`.

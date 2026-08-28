@@ -46,7 +46,7 @@ oops_in_cpp/
 ├── 01_classes_and_objects/
 │   ├── 01_basic_class.cpp
 │   ├── 02_create_objects.cpp
-│   ├── 03_access_members_and_function.cpp
+│   ├── 03_access_members.cpp
 │   └── Notes_Classes_Objects.md
 │
 ├── 02_member_functions/
@@ -233,12 +233,10 @@ Covered the fundamentals of classes and objects in C++:
 - Basic class syntax
 - Class name
 - Data members
-- Member functions
 - Public access specifier
 - Creating objects
 - Creating multiple objects
 - Accessing data members
-- Calling member functions
 - Using the dot `.` operator
 
 Programs completed:
@@ -246,7 +244,7 @@ Programs completed:
 ```text
 01_basic_class.cpp
 02_create_objects.cpp
-03_access_members_and_function.cpp
+03_access_members.cpp
 ```
 
 Notes:
@@ -295,7 +293,7 @@ Notes_Classes_Objects.md
 
 ## 02 — Member Functions
 
-The next stage is to learn member functions in more detail, including:
+The next stage is to learn member functions, including:
 
 - Defining a member function inside a class
 - Defining a member function outside a class
@@ -316,7 +314,7 @@ Current
 
 # Core OOP Concepts Covered in This Repository
 
-The main OOP principles are:
+The four main OOP principles are:
 
 ```text
 Encapsulation
