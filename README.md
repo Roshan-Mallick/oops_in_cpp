@@ -10,9 +10,9 @@ I am learning each concept by writing C++ programs, practicing examples, and mai
 
 * [x] **01 — Classes and Objects**
 * [x] **02 — Member Functions**
-* [ ] **03 — Inline Functions**
-* [ ] **04 — Encapsulation**
-* [ ] **05 — Abstraction**
+* [x] **03 — Inline Functions**
+* [x] **04 — Encapsulation**
+* [x] **05 — Abstraction**
 * [ ] **06 — Friend Functions and Friend Classes**
 * [ ] **07 — Constructors**
 * [ ] **08 — Destructors**
@@ -46,7 +46,7 @@ I am learning each concept by writing C++ programs, practicing examples, and mai
 * [ ] **36 — Smart Pointers**
 * [ ] **37 — STL**
 
-> **Note:** The official learning progress is currently completed up to Section 02 — Member Functions. The remaining sections are part of the planned C++ and OOP learning journey.
+> **Note:** The official learning progress is currently completed up to Section 05 — Abstraction. The remaining sections are part of the planned C++ and OOP learning journey.
 
 ---
 
@@ -313,13 +313,13 @@ oops_in_cpp/
 
 ## Current Progress
 
-**Completed: 2 / 37**
+**Completed: 5 / 37**
 
-**Progress: 5.4%**
+**Progress: 13.5%**
 
-**Current completed topic:** `02 — Member Functions`
+**Current completed topic:** `05 — Abstraction`
 
-**Next topic:** `03 — Inline Functions`
+**Next topic:** `06 — Friend Functions and Friend Classes`
 
 ---
 
@@ -381,14 +381,102 @@ Notes_Member_Functions.md
 
 ---
 
+## 03 — Inline Functions
+
+Covered:
+
+* Inline function fundamentals
+* Basic inline function syntax
+* Inline member functions
+* Defining inline functions inside a class
+* Defining inline functions outside a class
+
+Programs completed:
+
+```text
+01_basic_inline_function.cpp
+02_inline_function_inside_class.cpp
+03_inline_function_outside_class.cpp
+```
+
+Notes:
+
+```text
+Notes_Inline_Functions.md
+```
+
+---
+
+## 04 — Encapsulation
+
+Covered:
+
+* Private members
+* Default private access in classes
+* Explicit `private` access specifier
+* Accessing private members through public functions
+* Data hiding
+* Controlled modification of data
+* Setter and getter functions
+* Basic validation
+
+Programs completed:
+
+```text
+01_private_members.cpp
+02_access_private_members.cpp
+03_data_hiding.cpp
+04_setdata_with_validation.cpp
+```
+
+Notes:
+
+```text
+Notes_Encapsulation.md
+```
+
+---
+
+## 05 — Abstraction
+
+Covered:
+
+* Abstraction fundamentals
+* Access specifiers
+* Private data and member functions
+* Public member functions as an interface
+* Hidden implementation details
+* Boolean return values
+* Runtime user creation
+* Signup and login flow
+* Credential verification
+* Controlled access to stored user data
+* Real-world abstraction using a user database
+
+Programs completed:
+
+```text
+01_basic_abstraction.cpp
+02_abstraction_using_access_specifiers.cpp
+03_real_world_abstraction.cpp
+```
+
+Notes:
+
+```text
+Notes_Abstraction.md
+```
+
+---
+
 # Learning Progress
 
 ```text
 01 Classes and Objects              ████████████████████ 100%
 02 Member Functions                 ████████████████████ 100%
-03 Inline Functions                 ░░░░░░░░░░░░░░░░░░░░   0%
-04 Encapsulation                    ░░░░░░░░░░░░░░░░░░░░   0%
-05 Abstraction                      ░░░░░░░░░░░░░░░░░░░░   0%
+03 Inline Functions                 ████████████████████ 100%
+04 Encapsulation                    ████████████████████ 100%
+05 Abstraction                      ████████████████████ 100%
 06 Friend Functions and Classes     ░░░░░░░░░░░░░░░░░░░░   0%
 07 Constructors                     ░░░░░░░░░░░░░░░░░░░░   0%
 08 Destructors                      ░░░░░░░░░░░░░░░░░░░░   0%
@@ -423,21 +511,21 @@ Notes_Member_Functions.md
 37 STL                              ░░░░░░░░░░░░░░░░░░░░   0%
 ```
 
-**Overall: 2 / 37 sections completed — 5.4%**
+**Overall: 5 / 37 sections completed — 13.5%**
 
 ---
 
 # What's Next?
 
-## 03 — Inline Functions
+## 06 — Friend Functions and Friend Classes
 
-The next stage is to learn inline functions, including:
+The next stage is to learn friend functions and friend classes, including:
 
-* What an inline function is
-* Basic inline function syntax
-* Inline member functions
-* Defining an inline function inside a class
-* Defining an inline function outside a class
+* Basic friend functions
+* Accessing private members through friend functions
+* Friend functions with multiple classes
+* Basic friend classes
+* Accessing private members through friend classes
 
 ```text
 Completed
@@ -446,11 +534,15 @@ Completed
    ↓
 02 — Member Functions ✓
    ↓
+03 — Inline Functions ✓
+   ↓
+04 — Encapsulation ✓
+   ↓
+05 — Abstraction ✓
+   ↓
 Current Next
    ↓
-03 — Inline Functions
-   ↓
-04 — Encapsulation
+06 — Friend Functions and Friend Classes
 ```
 
 ---
@@ -533,4 +625,3 @@ Each topic contains focused C++ programs and a dedicated notes file as I progres
 |         2 |    37 | **5.4%** |
 
 **Current focus:** `03 — Inline Functions`
-
