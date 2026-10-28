@@ -1,25 +1,28 @@
 #include<iostream>
 #include<string>
 
-using namespace std;
+using namespace std ;
 
-class student {
+class user {
 
-	public: // Public access specifier allows members to be accessed outside the class
+	private : string name = "Roshan Mallick";
+	          string email = "roshanmallick2025@gmail.com";
+			  
 
-		 int roll;
-		 string name;
+	public : void display (){
 
-		 void info() {
-		   cout << "My roll is: " << roll << endl;
-		   cout << "My name is: " << name << endl;
-		 }
+             cout << "Name : " << name << endl ;
+			 cout << "Email: " << email << endl ;
+
+	        }
+
 };
 
-int main() {
+int  main () {
 
-	student s1; // Create the first object from the student class
-	student s2; // Create the second object from the student class
+	user u1;
+
+	u1.display();
 
 	return 0;
 }
