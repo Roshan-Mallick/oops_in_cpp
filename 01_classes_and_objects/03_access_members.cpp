@@ -4,24 +4,20 @@
 using namespace std;
 
 class student {
+  
+  public : string name = "Roshan Mallick ";
+           int roll = 1177 ;
 
-  public : int roll;  // Public access specifier
-           string name;
-           
-                    
- };
+};
 
 int main () {
 
-   student s1;
-   
-   s1.roll = 1177; // Access data members using the dot operator
-   s1.name = "Roshan";
-   
-   cout << "my roll is : " << s1.roll << endl;
-   cout << "my name is : " << s1.name << endl;
+  student s1;
+
+  cout << "Name : " << s1.name << endl ;
+  cout << "Roll : " << s1.roll << endl ;
 
 
- return 0;
- 
+
+  return 0;
 }
